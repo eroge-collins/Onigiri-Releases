@@ -1,5 +1,13 @@
 ﻿# What's New
 
+## 1.0.4
+
+- Fixed Marketplace custom skins being classified as `Custom` when their champion uses a display name such as `Lee Sin`.
+- Fixed Apply resolving imported marketplace files by a reconstructed filename instead of their actual local file path.
+- Fixed the Hematite repair tool integration by replacing the broken upstream v0.7.0 release asset with a clean build from the tagged source.
+- Added SHA-256 verification for the bundled Hematite mirror and clearer Fix error output.
+- Increased the Hematite Fix timeout to 180 seconds for larger mods.
+
 ## 1.0.3
 
 - Fixed restore from maximized mode always returning to a compact 1280x720 window.
