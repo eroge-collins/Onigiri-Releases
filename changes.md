@@ -1,5 +1,12 @@
 # What's New
 
+## 1.0.8
+
+- Fixed the startup crash caused by Axios runtime dependencies missing from packaged Windows builds.
+- Disabled differential update downloads because this release channel publishes full NSIS installers without blockmaps.
+- Added a protected update backup outside the Onigiri data directory for LTK tools, installed mods, downloaded skins, storage, and profiles.
+- Protected user data is restored automatically before migrations and tool checks on the next launch.
+
 ## 1.0.7
 
 - Improved the Marketplace download flow so downloaded skins open directly in the normal import/edit workflow.
