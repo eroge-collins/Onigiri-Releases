@@ -1,5 +1,9 @@
 # What's New
 
+## 1.0.9
+- Fixed the remaining Axios startup crash by packaging the complete runtime dependency tree required by form-data.
+- Verified the packaged app.asar can load Axios successfully without missing-module errors.
+
 ## 1.0.8
 
 - Fixed the startup crash caused by Axios runtime dependencies missing from packaged Windows builds.
